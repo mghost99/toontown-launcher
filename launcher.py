@@ -31,12 +31,7 @@ class Launcher(Toplevel):
         self.title("Toontown Online")
         self.resizable(False, False)
         self.wm_attributes('-transparentcolor', 'darkgray')
-
-        # make fullscreen
-        self.iconify()
-        self.overrideredirect(True)
-
-        
+        self.overrideredirect(True) # Removes the window border and title bar (unintentional)
 
         # set the window icon
         self.iconbitmap('icon.ico')

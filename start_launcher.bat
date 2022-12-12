@@ -1,5 +1,5 @@
 @echo off
 :a
-..\custom\python\python.exe splash.py
+python splash.py
 pause
 goto a
