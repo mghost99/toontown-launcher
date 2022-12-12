@@ -27,7 +27,8 @@ What needs work or added:
 
 - Updater [not implemented]
 - - `patcher.ver` is outdated and clunky, so an example of what I think it better is below:
-```{
+```
+    {
     files : {
         name: "Toontown.exe",
         size: 012345,
